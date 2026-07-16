@@ -1,0 +1,24 @@
+name: hip-fracture-survival
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - numpy
+  - dask
+  - distributed
+  - pyarrow
+  - lifelines
+  - xgboost
+  - scikit-learn
+  - scikit-survival
+  - scipy
+  - matplotlib
+  - python-docx
+  - pytorch
+  - pip:
+      - torchtuples
+      - pycox
